@@ -1,1 +1,88 @@
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GridandMediaQueries</title>
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 376px) and (max-width: 1440px)"
+      href="styles.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 375px)"
+      href="mobile.css"
+    />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <section>
+        <div class="container">
+          <section class="left-grid">
+            <div class="content">
+              <h1>Learn to code by<br />watching others</h1>
+              <!-- <p>
+                See how experienced developers solve problems in real-time.<br />
+                Watching scripted tutorials is great, but understanding how<br />
+                think is invaluable.
+              </p> -->
+              <p>
+                See how experienced developers solve problems in real-time.
+                Watching scripted tutorials is great, but understanding how
+                developers think is invaluable.
+              </p>
+            </div>
+          </section>
+          <section class="right-grid">
+            <div class="form-head">
+              <p>
+                <span id="p-bold">Try it for free 7 days</span> then $20/mo.
+                thereafter
+              </p>
+            </div>
+            <div class="form-control">
+              <form action="">
+                <label
+                  for="firstname"
+                  class="input-container"
+                  data-error="First Name cannot be empty"
+                >
+                  <input
+                    type="text"
+                    id="firstname"
+                    placeholder="First Name"
+                    class="error-style"
+                    value="name"
+                  />
+                </label>
+                <label
+                  for="lastname"
+                  data-error="Last Name cannot be empty"
+                ></label>
+                <input type="text" id="lastname" placeholder="Last Name" />
+                <label
+                  for="email"
+                  data-error="Looks like this is not and email"
+                ></label>
+                <input type="email" id="email" placeholder="Email" />
+                <label
+                  for="password"
+                  data-error="Password cannot be empty"
+                ></label>
+                <input type="password" id="password" placeholder="Password" />
+                <button>Claim Your free trial</button>
+              </form>
+              <p>
+                By clicking the button, you are agreeing to our
+                <span id="form-footer-red">Terms and Services </span>
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
