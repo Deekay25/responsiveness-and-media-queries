@@ -20,7 +20,6 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-
 }
 
 .left-grid {
@@ -95,7 +94,6 @@ button {
   border-radius: 10px;
   width: 100%;
   box-shadow: 0 0.5em 0.5em -0.4em gray;
-
 }
 
 .form-control > p {
@@ -110,13 +108,16 @@ button {
   font-weight: 200;
 }
 
-.input-container[data-error] .error-style{
-    border-color: #c92432;
-    color: #c92432;
-    background: #fffafa;
-}
+/* .input-container[data-error] .error-style {
+  border-color: #c92432;
+  color: #c92432;
+  background: #fffafa;
+} */
 
-.input-container[data-error]::after{
-    content: arr(data-error);
-    
-}
+/* .input-container[data-error]::after {
+  content: attr(data-error);
+  font-size: 0.85em;
+  margin-top: 0;
+  color: #c92432;
+
+} */
