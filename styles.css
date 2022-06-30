@@ -41,6 +41,7 @@ input:hover {
   border: solid 1px hsl(248, 32%, 49%);
 }
 input:focus {
+  outline: none;
   border: solid 1px hsl(248, 32%, 49%);
 }
 button {
